@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Belvg_Staticversion>
+            <version>0.0.1</version>
+        </Belvg_Staticversion>
+    </modules>
+    <global>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html_head>Belvg_Staticversion_Block_Page_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
+        <helpers>
+            <staticversion>
+                <class>Belvg_Staticversion_Helper</class>
+            </staticversion>
+        </helpers>
+    </global>
+    <default>
+        <staticversion>
+            <enable>0</enable>
+            <version>123456</version>
+        </staticversion>
+    </default>
+    <phpunit>
+        <suite>
+            <modules>
+                <Belvg_Staticversion/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>

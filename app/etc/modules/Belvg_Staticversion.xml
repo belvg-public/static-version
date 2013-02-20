@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Belvg_Staticversion>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Belvg_Staticversion>
+    </modules>
+</config>
